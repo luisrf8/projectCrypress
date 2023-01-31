@@ -4,7 +4,8 @@
   "description": "cypress project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx cypress run",
+    "start": "npx cypress open"
   },
   "keywords": [
     "qa",
@@ -14,5 +15,9 @@
   "license": "ISC",
   "dependencies": {
     "cypress": "^12.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luisrf8/projectCrypress"
   }
 }
